@@ -214,7 +214,7 @@ footer a {
         background-position: right;
     }
     #about div {
-        width: 30%;
+        width: 35%;
         margin-right: 5%;
     }
     .text div {
@@ -223,5 +223,78 @@ footer a {
 }
 /* Phones */
 @media(max-width:500px){
-
+    nav {
+        flex-direction: column;
+    }
+    .logo {
+        width: 10%;
+    }
+    .links {
+        width: 90%;
+    }
+    #about {
+        background-image: none;
+        background-color: #dddee0;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    #about div {
+        width: 90%;
+        margin-right: 0;
+    }
+    .container {
+        justify-content: center;
+    }
+    .text, .succulents, .cacti, .tropicals {
+        width: 90%;
+    }
+    .succulents, .cacti, .tropicals {
+        height: 40vh;
+    }
+    .one {
+        order: 1;
+    }
+    .two {
+        order: 2;
+    }
+    .three {
+        order: 3;
+    }
+    .four {
+        order: 4;
+    }
+    .five {
+        order: 5;
+    }
+    .six {
+        order: 6;
+    }
+    footer {
+        justify-content: center;
+    }
+    .left, .right {
+        width: 90%;
+    }
+    .left div {
+        line-height: 2;
+    }
+    .left div p {
+        font-size: 1.5rem;
+    }
+    footer h2 {
+        order: -2;
+    }
+    .right {
+        order: -1;
+    }
+    .right img {
+        width: 70%;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .copyright p {
+        margin-right: 0;
+    }
 }
