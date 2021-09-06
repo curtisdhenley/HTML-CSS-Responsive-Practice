@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 /* General styles */
 html {
@@ -163,4 +163,43 @@ nav {
 .tropicals {
     background-image: url(/images/tropicals.jpg);
     background-position: center;
+}
+/* Footer section styling */
+footer {
+    background-color: #266035;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+}
+footer h2 {
+    color: #fff;
+    width: 100%;
+}
+.left, .right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left div {
+    line-height: 3;
+    width: 50%;
+}
+.right img {
+    width: 50%;
+}
+footer h3 {
+    color: #fff;
+    text-align: left;
+}
+footer a {
+    color: #fff;
+}
+.copyright {
+    width: 100%;
+    text-align: right;
+}
+.copyright p {
+    margin-right: 3%;
+    margin-top: 5%;
 }
