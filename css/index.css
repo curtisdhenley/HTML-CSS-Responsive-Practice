@@ -56,19 +56,21 @@ button {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.8rem;
     padding: 3% 5%;
+    margin-top: 5%;
 }
 h1, h2, h3 {
     font-family: 'Oxygen', sans-serif;
     color: #266035;
     letter-spacing: 3px;
+    text-align: center;
 }
 h1 {
     font-size: 5rem;
     color: #FBFFFB;
-    margin-bottom: 5%;
 }
 h2 {
     font-size: 3.5rem;
+    margin-bottom: 2%;
 }
 h3 {
     font-size: 2.5rem;
@@ -114,4 +116,51 @@ nav {
 #home button {
     color: #266035;
     border: 2px solid #266035;
+}
+/* about section styling */
+#about {
+    background-image: url(/images/about-img.jpg);
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#about div {
+    width: 22%;
+    margin-right: 10%;
+}
+/* Shop section styling */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.text, .succulents, .cacti, .tropicals {
+    width: 50%;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6%;
+    text-align: center;
+}
+.text div {
+    width: 50%;
+}
+.text button {
+    background-color: #266035;
+    color: #fff;
+}
+.succulents {
+    background-image: url(/images/succulants.jpg);
+    background-position: bottom;
+}
+.cacti {
+    background-image: url(/images/cacti.jpg);
+    background-position: bottom;
+}
+.tropicals {
+    background-image: url(/images/tropicals.jpg);
+    background-position: center;
 }
