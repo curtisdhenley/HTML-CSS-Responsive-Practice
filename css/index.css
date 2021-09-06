@@ -131,6 +131,9 @@ nav {
     margin-right: 10%;
 }
 /* Shop section styling */
+#shop {
+    padding-bottom: 0;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -202,4 +205,23 @@ footer a {
 .copyright p {
     margin-right: 3%;
     margin-top: 5%;
+}
+/* media queries */
+/* Tablet */
+@media(max-width:800px){
+    #about {
+        height: 90vh;
+        background-position: right;
+    }
+    #about div {
+        width: 30%;
+        margin-right: 5%;
+    }
+    .text div {
+        width: 65%;
+    }
+}
+/* Phones */
+@media(max-width:500px){
+
 }
