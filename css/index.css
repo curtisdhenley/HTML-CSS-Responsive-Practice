@@ -55,17 +55,63 @@ a {
 button {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.8rem;
+    padding: 3% 5%;
 }
 h1, h2, h3 {
     font-family: 'Oxygen', sans-serif;
     color: #266035;
+    letter-spacing: 3px;
 }
 h1 {
     font-size: 5rem;
+    color: #FBFFFB;
+    margin-bottom: 5%;
 }
 h2 {
     font-size: 3.5rem;
 }
 h3 {
     font-size: 2.5rem;
+}
+section, footer {
+    padding: 4% 0;
+}
+/* helper classes styling */
+.bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Header section styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+    padding: 1% 0;
+}
+.logo {
+    width: 5%;
+}
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* home section styling */
+#home {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/header.jpg);
+    text-align: center;
+    background-position: bottom;
+}
+#home button {
+    color: #266035;
+    border: 2px solid #266035;
 }
